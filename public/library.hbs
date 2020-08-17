@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library</title>
+    <link rel="stylesheet" href="library.css">
+    <link rel="icon" href="Images/logo.jpg">
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h1>WELCOME TO DIGITAL LIBRARY</h1>
+        <label for="name"><b>Name:</b></label>
+        <input type="text" name="name" id="name" value="{{name}}" placeholder="Enter your name">
+        <label for="department"><b>Department(in Short Form):</b></label>
+        <input type="text" name="department" id="department" value="{{department}}" placeholder="Enter your Department">
+        <label for="usn"><b>USN:</b></label>
+        <input type="text" name="usn" id="usn" value="{{usn}}" placeholder="Enter your USN">
+        <label for="year"><b>Year:</b></label>
+        <input type="number" name="year" id="year" value="{{year}}" placeholder="Enter your Year of Study">
+        <label for="email"><b>Email:</b></label>
+        <input type="email" name="email" id="email" value="{{email}}" placeholder="Enter your email">
+        <label for="sem"><b>Sem:</b></label>
+        <input type="number" name="sem" id="sem" value="{{sem}}" placeholder="Enter your Semester">
+        <label for="bname"><b>Book Name:</b></label>
+        <input type="text" name="bname" id="bname" placeholder="Enter the book name">
+        <label for="isbn"><b>Book_ISBN:</b></label>
+        <input type="number" name="isbn" id="isbn" placeholder="Enter the book ISBN">
+        <label for="bauthor"><b>Book Author:</b></label>
+        <input type="text" name="bauthor" id="bauthor" placeholder="Enter the book author">
+        <button>Submit</button>
+    </form>
+    <h3>List of Borrowers-<a href="/students" target="_blank">Here</a></h3>
+    <h2>Details Of Books Borrowed and Borrowers</h2>
+    <table border='2px'>
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>USN</th>
+            <th>Year</th>
+            <th>Email</th>
+            <th>Semester</th>
+            <th>Book_Name</th>
+            <th>Book_ISBN</th>
+            <th>Book_Author</th>
+            <th>Want to Remove?</th>
+        </tr>
+        
+    </table>
+    <script src="lib.js"></script>
+</body>
+</html>

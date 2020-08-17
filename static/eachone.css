@@ -1,0 +1,24 @@
+body img
+{
+    min-height:140vh;
+        width:100%;
+        opacity:0.6;
+}
+.cont
+{
+    position: absolute;
+    top:10%;
+    left:40%;
+}
+.cont img
+{
+    min-height:2%;
+    width:25%;
+}
+.cont b
+{
+    font-size:170%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+
+}
